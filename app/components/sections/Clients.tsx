@@ -18,7 +18,7 @@ const Clients = () => {
       <hr className="h-[1px]" />
       <div className="justify-around mt-12 flex flex-wrap gap-5">
         {counters.map((type) => (
-          <div className="flex items-center">
+          <div key={type.name} className="flex items-center">
             <CountUp className="font-bold text-lg" end={type.number} />+
             <p className="text-lg pl-[1px] text-gray-300 font-bold">
               &nbsp;{type.name}

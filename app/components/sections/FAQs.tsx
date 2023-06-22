@@ -28,7 +28,7 @@ const FAQs = () => {
           />
           <div className="mt-[25px] flex flex-col mx-auto max-w-[370px] gap-[24px] justify-center">
             {faqs.map((faq, index) => (
-              <Disclosure>
+              <Disclosure key={faq.answer}>
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-center text-sm font-medium text-blue-900 hover:bg-gray-400 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-75">

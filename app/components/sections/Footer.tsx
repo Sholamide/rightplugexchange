@@ -12,7 +12,7 @@ const Footer = () => {
         </p>
         <div className="flex mt-2 gap-4">
           {socials.map((social) => (
-            <a href={social.href}>
+            <a key={social.name} href={social.href}>
               <img
                 src={social.url}
                 key={social.name}
