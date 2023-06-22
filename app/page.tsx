@@ -22,7 +22,7 @@ export default function Home() {
         <FAQs />
         <Clients />
         <Footer/>
-        <FloatingWhatsApp avatar="/rpe-logo.png" chatMessage="Hello there 😊! How can we help?"  statusMessage="Typically replies within 15 minutes" phoneNumber="+2348132206437" accountName="RightPlug Exchange" />
+        <FloatingWhatsApp darkMode avatar="/rpe-logo.png" chatMessage="Hello there 😊! How can we help?"  statusMessage="Typically replies within 15 minutes" phoneNumber="+2348132206437" accountName="RightPlug Exchange" />
         {/* <Contact /> */}
       </div>
     </div>
