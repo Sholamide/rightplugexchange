@@ -3,7 +3,7 @@
 import Link from "next/link";
 import styles from "../../styles";
 import Image from "next/image";
-import { logo, menu, close } from "../../assets";
+import { logo, menu, close, rpe } from "../../assets";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { navLinks } from "../../constants";
@@ -27,8 +27,8 @@ const Navbar = () => {
           className="flex items-center gap-x-3"
           href="/"
         >
-          <Image className="w-6 h-6" alt="logo" src={logo} />
-          <p className="flex text-white text-[16px] cursor-pointer">
+          <Image className="w-16 h-16" alt="logo" src={rpe} />
+          <p className="hidden sm:flex text-white text-[16px] cursor-pointer">
             <span className="text-red-500 font-bold">Right&nbsp;</span>
             Plug&nbsp;<span className="text-blue-500 font-bold">Exchange</span>
           </p>

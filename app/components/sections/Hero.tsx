@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { map } from "../../assets";
 import { motion } from "framer-motion";
@@ -30,7 +31,7 @@ const PerksCard = ({ title, icon: Icon, index }: perkCardType) => {
 };
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section id="about" className="relative w-full h-screen mx-auto">
       <div
         className={`${styles.paddingX} absolute top-[120px] inset-0 flex flex-row items-start gap-5 max-w-7xl mx-auto`}
       >

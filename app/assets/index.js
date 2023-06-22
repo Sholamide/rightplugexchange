@@ -10,9 +10,12 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import map from './map.png';
+import rpe from './rpe-logo.png';
+
 export {
   amazon,
   logo,
+  rpe,
   map,
   menu,
   close,
