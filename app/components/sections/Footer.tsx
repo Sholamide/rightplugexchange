@@ -22,6 +22,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
+        <p>Built with 💙 by <a className="cursor-pointer text-sm red-gradient" target="_blank" href="https://sholuadeolamide.vercel.app">Lordie</a></p>
       </div>
     </footer>
   );
