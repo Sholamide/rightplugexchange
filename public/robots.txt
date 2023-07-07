@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rightplugexchange.com
+
+# Sitemaps
+Sitemap: https://rightplugexchange.com/sitemap.xml
