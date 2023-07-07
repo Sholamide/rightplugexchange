@@ -6,6 +6,7 @@ import { fadeIn, staggerContainer } from "@/app/utils/motion";
 import { motion } from "framer-motion";
 import StartSteps from "../StartSteps";
 import { TitleText, TypingText } from "../CustomTexts";
+import Image from "next/image";
 
 const Steps = () => {
   return (
@@ -21,7 +22,7 @@ const Steps = () => {
           variants={fadeIn("up", "tween", 0.2, 0.5)}
           className={`flex-1 text-blue-700 ${styles.flexCenter}`}
         >
-          <img
+          <Image width={100} height={100}
             src="/question-mark-blue.svg"
             alt="get-started"
             className="w-[40%] h-[40%] object-contain text-blue-700"

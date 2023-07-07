@@ -1,4 +1,5 @@
 import { socials } from "@/app/constants";
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -16,7 +17,7 @@ const Footer = () => {
         <div className="flex gap-x-4">
           {socials.map((social) => (
             <a key={social.name} href={social.href}>
-              <img
+              <Image width={6} height={6}
                 src={social.url}
                 key={social.name}
                 alt={social.name}
