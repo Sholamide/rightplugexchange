@@ -45,7 +45,7 @@ const Hero = () => {
             className="font-bold lg:text-[10px] mt-2 md:text-[10px] sm:text-[10px] text-[10px] text-blue-600"
             variants={textVariant(1.1)}
           >
-            Attention all visitors of rightexchange.com! Uncover the hidden magic with just two words: 'Send Aza.' Find it, capture proof, and unlock surprises. Happy hunting!
+            Attention all visitors of rightexchange.com! Uncover the hidden magic with just two words: &apos;Send Aza.&apos; Find it, capture proof, and unlock surprises. Happy hunting!
           </motion.h6>
           <motion.h1
             className="font-bold lg:text-[48px] mt-12 md:text-[40px] sm:text-[35px] text-[20px] uppercase  text-white red-gradient"
