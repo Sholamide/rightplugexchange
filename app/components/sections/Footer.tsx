@@ -1,7 +1,6 @@
 import { socials } from "@/app/constants";
 import Image from "next/image";
 import React from "react";
-
 const Footer = () => {
   return (
     <footer
@@ -36,6 +35,7 @@ const Footer = () => {
             Lordie
           </a>
         </p>
+        <span className="px-3 text-[#262f6e] font-bold animate-bounce">send aza</span>
       </div>
     </footer>
   );

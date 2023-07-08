@@ -24,7 +24,7 @@ const FAQs = () => {
         >
           <TypingText
             textStyles="text-sm text-center lg:text-3xl"
-            title="| Frequently Asked Questions"
+            title="| Frequently Asked Questions <Send Aza>"
           />
           <div className="mt-[25px] flex flex-col mx-auto max-w-[370px] gap-[24px] justify-center">
             {faqs.map((faq, index) => (
@@ -48,6 +48,7 @@ const FAQs = () => {
             ))}
           </div>
         </motion.div>
+       
       </motion.div>
     </section>
   );
