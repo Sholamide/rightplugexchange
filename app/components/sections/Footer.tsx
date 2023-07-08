@@ -35,7 +35,6 @@ const Footer = () => {
             Lordie
           </a>
         </p>
-        <span className="px-3 text-[#262f6e] font-bold animate-bounce">send aza</span>
       </div>
     </footer>
   );

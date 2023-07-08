@@ -9,6 +9,9 @@ import { Disclosure } from "@headlessui/react";
 import { FaArrowCircleUp } from "react-icons/fa";
 
 const FAQs = () => {
+  
+
+  
   return (
     <section id="faqs" className={`${styles.paddings} relative z-10`}>
       <motion.div
@@ -18,6 +21,7 @@ const FAQs = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
+
         <motion.div
           className="flex justify-center flex-col"
           variants={fadeIn("down", "spring", 0.2, 0.5)}

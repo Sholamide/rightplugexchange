@@ -21,7 +21,7 @@ export default function Home() {
         <FAQs />
         <Clients />
         <Footer/>
-        <FloatingWhatsApp darkMode avatar="/rpe-logo.png" chatMessage="Send Aza 🤟 "  statusMessage="Typically replies within 15 minutes" phoneNumber="+2348132206437" accountName="RightPlug Exchange" />
+        <FloatingWhatsApp darkMode avatar="/rpe-logo.png" chatMessage="Hello, how can we assist you today?"  statusMessage="Typically replies within 15 minutes" phoneNumber="+2348132206437" accountName="RightPlug Exchange" />
       </div>
     </div>
   );

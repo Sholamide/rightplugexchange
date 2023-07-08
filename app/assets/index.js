@@ -11,7 +11,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import map from './map.png';
 import rpe from './rpe-logo.png';
-import sendaza from './send-aza-logo.png'
 import logowhite from './logo-white.png'
 
 export {
@@ -28,6 +27,5 @@ export {
   itunes,
   steam,
   vanilla,
-  sendaza,
   logowhite
 };

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'RightPlug Exchange <Send Aza>',
+  title: 'RightPlug Exchange',
   description: 'RightPlug Exchange: Seamlessly Buy, Sell, and Trade Bitcoin, Gift Cards, Altcoins, and eFunds with Ease.',
 }
 
