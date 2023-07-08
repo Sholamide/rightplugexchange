@@ -7,6 +7,7 @@ import {
   itunes,
   steam,
   vanilla,
+  sendaza
 } from "../assets";
 import { FaStudiovinari, FaHandHoldingUsd } from "react-icons/fa";
 import { TbTableOptions } from "react-icons/tb";
@@ -24,6 +25,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "aza",
+    title: "Send Aza",
   },
 ];
 
@@ -59,6 +64,10 @@ export const cards = [
   {
     name: "vanilla",
     icon: vanilla,
+  },
+  {
+    name: "aza",
+    icon: sendaza,
   },
 ];
 
@@ -107,7 +116,7 @@ export const faqs = [
   {
     question: "How do I contact RightPlug Exchange to sell my gift card?",
     answer:
-      "To contact us and sell your gift card, click either the `Get Started` or `Sell Now` button. Our customer service team is available 24/7, eager to assist you promptly and provide fast, considerate service.",
+      "To contact us and sell your gift card, click either the `Get Started` or `Sell Now` button. Our customer service team is available 24/7, eager to assist you promptly and provide fast, considerate service. -SEND-AZA",
   },
 ];
 
