@@ -72,7 +72,7 @@ const Hero = () => {
           </div>
         </motion.div>
         <div className="absolute">
-          <Image alt="right plug map" src={map} />
+          <Image priority alt="right plug map" src={map} />
         </div>
       </div>
     </section>
